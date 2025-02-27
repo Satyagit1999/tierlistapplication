@@ -1,0 +1,82 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #242222;
+}
+h1 {
+    color: white;
+}
+label{
+    color: white;
+}
+p{
+    color: white;
+}
+#tier1{
+    padding: 5px;
+    margin-bottom: 1%;
+
+    
+}
+#tier-image{
+    padding: 5px;
+}
+
+#submit{
+    margin-left: 10px;
+}
+.submitbtn{
+    background-color: #ff7f7f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.tier-list-container{
+    gap: 1rem;
+    background-color: beige;
+    height: 75px;
+    display: flex;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-bottom: 1%;
+}
+.heading{
+    border-right: 1px solid white;
+    height: 100%;
+    color: white;
+    background-color: #ff7f7f;
+    font-size: xx-large;
+    font-weight: lighter;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tier-list-items{
+    
+    min-width: 50%;
+    display: flex;
+    gap: 1rem;
+}
+#tier-image-section{
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.tier-image-container{
+    height: 75px;
+    width: 75px;
+}
+.tier-image-container img{
+    height: 100%;
+    width: 100%;
+}
+#tier-list-section{
+    padding: 1rem;
+}
